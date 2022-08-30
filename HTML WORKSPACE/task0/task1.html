@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Document</title>
+</head>
+<body>
+<input type="text" id="name" name="name" placeholder="Enter name"/>
+<button type="button" onclick="add()">add Data</button>
+ <table id="para">
+ <tr>
+<td id="tdata"></td>
+</tr>
+ </table>
+
+<script>
+ function add(){
+ let arr=[];
+ arr.push(document.getElementById("name").value);
+arr.forEach((data)=>{
+     var table=document.getElementById("para")
+let row=table.insertRow();
+ row.innerHTML=data;
+ })
+
+}
+
+</script>
+</body>
+</html>
+

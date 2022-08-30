@@ -1,0 +1,156 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#registercard{
+  margin-top: 50px;
+  margin-left: 300px;
+}
+#logincard{
+  margin-top: 130px;
+  margin-left: 300px;
+
+}
+#imagecard{
+  height: 300px;
+  width: 380px;
+}
+.container{
+  
+  background-color: rgb(172, 245, 245);
+
+}
+.register-style{
+  background-color: rgb(164, 105, 220);
+}
+.card{
+  cursor:pointer;
+}
+*{
+  font-size: 16px;
+}
+#imagecard{
+  height:185px;
+  width:185px;
+  
+}
+#registercard {
+  margin-top: 50px;
+  margin-left: 300px;
+}
+#logincard {
+  margin-top: 130px;
+  margin-left: 300px;
+}
+.container {
+  padding: 16px;
+  background-color: white;
+}
+.Body{
+background-image: url("https://miro.medium.com/max/1400/0*v1b5Jjag7e4SQRw7");
+background-size: width;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+ border: none;
+  background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: rgb(43, 212, 241);
+  color: white;
+  padding: 0px 0px;
+  margin: 0px 0px;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  opacity: 0.9;
+}
+.registerbtn:hover {
+  opacity: 1;
+}
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f57ce2;
+  text-align: center;
+}
+.SignUp{
+  background-color: #e268ef;
+  text-align: center;
+}
+/*===========================================================================================*/
+ul {
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:  rgb(43, 212, 241);
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: rgb(241, 250, 252);
+}
+.active {
+  background-color: rgb(43, 212, 241)D;
+}

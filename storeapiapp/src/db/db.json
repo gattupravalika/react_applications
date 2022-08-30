@@ -1,0 +1,79 @@
+{
+  "formusers": [
+    {
+      "id": 101,
+      "username": "mannu",
+      "useremail": "mm@gmail.com",
+      "password": 123,
+      "phoneno": 123654789,
+      "city": "hyd"
+    },
+    {
+      "id": 102,
+      "username": "jannu",
+      "useremail": "mm@gmail.com",
+      "password": 123,
+      "phoneno": 123654789,
+      "city": "hyd"
+    },
+    {
+      "id": 103,
+      "username": "rahul",
+      "useremail": "mmm@gmail.com",
+      "password": "12345",
+      "phoneno": "123456",
+      "city": "hyd"
+    },
+    {
+      "id": 3234,
+      "username": "sfs",
+      "useremail": "fdsg@sf",
+      "password": "353",
+      "phoneno": "5647",
+      "city": "gh"
+    },
+    {
+      "id": 4444,
+      "username": "sfs",
+      "useremail": "fdsg@sf",
+      "password": "353",
+      "phoneno": "5647",
+      "city": "gh"
+    },
+    {
+      "id": 123,
+      "username": "abhi",
+      "useremail": "abhi@gmail.com",
+      "password": "123654",
+      "phoneno": "123654789",
+      "city": "vizag"
+    },
+    {
+      "id": 1234,
+      "username": "abhi",
+      "useremail": "abhi@gmail.com",
+      "password": "1111",
+      "phoneno": "123654789",
+      "city": "vizag"
+    },
+    {
+      "id": 23,
+      "username": "hai",
+      "useremail": "prv@gmail.com",
+      "password": "hgf",
+      "phoneno": "524697842",
+      "city": "hyd"
+    },
+    {
+      "id": 4445
+    },
+    {
+      "id": 12345,
+      "username": "prava",
+      "useremail": "prv123@gmail.com",
+      "password": "ggg",
+      "phoneno": "464576879",
+      "city": "vizag"
+    }
+  ]
+}

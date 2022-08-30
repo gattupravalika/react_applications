@@ -1,0 +1,29 @@
+body{
+    background-image: url("./wallapaper1.jfif");
+    
+
+  background-repeat: no-repeat;
+  background-size: 105%;
+  position:relative;
+  
+
+}
+#result{
+
+    margin:10px 10px 10px -470px;
+
+}
+
+#table{
+
+    margin: 10px 80px 10px 650px;
+    border: 2px solid red(0, 225, 255);
+
+    background-color:rgb(248, 80, 145);
+    text-align: center;
+color: aliceblue;
+    width: 60%;
+
+ 
+
+}

@@ -1,0 +1,46 @@
+{
+  "customer": [
+    {
+      "id": 202,
+      "name": "Baghya",
+      "add": "Nijambad",
+      "phone": "9987453678"
+    },
+    {
+      "id": 203,
+      "name": "Siri",
+      "add": "Hyderabad",
+      "phone": "7687456678"
+    },
+    {
+      "id": 204,
+      "name": "Preethi",
+      "add": "Jammikunta",
+      "phone": "97896434733"
+    },
+    {
+      "id": 205,
+      "name": "vahini",
+      "add": "miramguda",
+      "phone": "476597089775"
+    },
+    {
+      "id": 206,
+      "name": "ravali",
+      "add": "raidurgam",
+      "phone": "97695543546"
+    },
+    {
+      "id": 201,
+      "name": "prava goud",
+      "add": "hanmakonda",
+      "phone": "7702607690"
+    },
+    {
+      "id": 209,
+      "name": "shravani",
+      "add": "nalgonda",
+      "phone": "5438796854"
+    }
+  ]
+}

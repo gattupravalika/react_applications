@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>table </title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+   
+</head>
+
+<body>
+   
+    <div id="container" >
+    <div class="card text-bg-light mb-3" style="width: 50rem; margin:10px 43px 10px 369px;">
+
+        <div class="card-header"
+            style=" background-color:rgb(216, 25, 98); color: white;text-align: center; font-size:xx-large;"><b>Form
+                Details</b></div>
+
+        <div class="card-body">
+            <label for="name">FirstName</label><br>
+            <input type="text" id="fname" placeholder="enter first name"  size="100px" required />
+            <label for="name">LastName</label><br>
+            <input type="text" id="lname" placeholder="enter last name"  size="100px" required />
+            <label for="Employe Id">Emplyee Id</label>
+            <input type="text" id="EmplyeeName" placeholder="enter EmpId"  size="100px" required />
+            <label for="Designation">Designation</label>
+            <input type="text" id="Designation" placeholder="Designation"  size="100px" required />
+            <label for="name">Salary</label><br>
+            <input type="text" id="salary" placeholder="enter salary"  size="100px" required /><br><br>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <button type="button" class="btn btn-outline-primary" onclick="add()">Submit</button>
+        </div>
+
+        </div>
+    </div>
+    <div id="result">
+
+        <table id="table" class="table table-bordered">
+
+            <tbody>
+
+                <tr>
+                    <th>FirstName</th>
+                    <th>Lastname</th>
+                    <th>Emplyee Id</th>
+                    <th>Designation</th>
+                    <th>salary</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+
+
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+    <script src="./js/validform.js"></script>
+</body>
+
+</html>
